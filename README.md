@@ -13,12 +13,10 @@ Enter a username and the app displays matching GitHub users with their avatar, u
 
 ---
 
-## 🚀 How to Use
-1. Open `index.html` in any browser.  
-2. Type a GitHub username into the search box.  
-3. Click **Search**.  
-4. View the results displayed below.
-
----
-
 ## 📡 API Used
+This project uses the **GitHub Users API** to fetch user profiles.  
+API Documentation: [GitHub REST API - Search Users](https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-users)
+
+**Example Request:**
+```http
+GET https://api.github.com/search/users?q={username}
