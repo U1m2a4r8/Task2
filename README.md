@@ -1,6 +1,6 @@
 # GitHub User Search
 
-A simple web application that allows users to search GitHub profiles using the GitHub Users API.  
+A simple web page that allows users to search GitHub profiles using the GitHub Users API.  
 Enter a username and the app displays matching GitHub users with their avatar, username, and a link to their profile.
 
 ---
